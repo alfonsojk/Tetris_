@@ -8,10 +8,10 @@ document.addEventListener('DOMContentLoaded', () => {
     let timerId
     let score = 0
     const colors = [
-      color="white",
-      'green',
       'orange',
-      'yellow',
+      'red',
+      'purple',
+      'green',
       'blue'
     ]
   
@@ -177,6 +177,9 @@ document.addEventListener('DOMContentLoaded', () => {
       draw()
     }
     /////////
+  
+    
+    
     //show up-next tetromino in mini-grid display
     const displaySquares = document.querySelectorAll('.mini-grid div')
     const displayWidth = 4
@@ -245,6 +248,5 @@ document.addEventListener('DOMContentLoaded', () => {
         clearInterval(timerId)
       }
     }
-    
   
   })
